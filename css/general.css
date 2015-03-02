@@ -25,10 +25,11 @@ body {
 
 .holder {
     padding: 0;
-    margin: 4em;
+    margin: auto;
     border: solid 2px darkcyan;
     border-radius: 10px;
     background-color: mediumaquamarine;
+    min-width: 20em;
     max-width: 20em;
     text-align: center;
     overflow: hidden;
