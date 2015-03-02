@@ -19,10 +19,93 @@ html {
 }
 
 body {
-    background-color: lightgrey;
+    background-color: mintcream;
 }
 
 .holder {
-    border: 2px solid;
-    border-width: 20px 20px 20px 20px;
+    padding: 0;
+    margin: 4em;
+    border: solid 2px darkcyan;
+    border-radius: 10px;
+    background-color: mediumaquamarine;
+    width: 20em;
+    text-align: center;
+    overflow: hidden;
+}
+
+.list-holder {
+    padding: 0;
+    margin: auto;
+    background-color: snow;
+    width: 20em;
+    overflow: hidden;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin-left: .5em;
+}
+
+.delete{
+    color: black;
+    font-weight: bold;
+    border: solid 2px darkcyan;
+    border-radius: 5px;
+    float: right;
+    text-align: center;
+    margin-right: 1.2em;
+    height: 3em;
+    width: 2.5em;
+    background-color: honeydew;
+}
+
+.delete:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.label {
+    font-family: serif;
+    display: block;
+}
+
+.main-input {
+    border: solid 2px darkcyan;
+    float: left;
+    padding: .85em;
+    width: 15em;
+    margin-left: 2.5em;
+    margin-bottom: 1.5em;
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: snow;
+}
+
+.add {
+    font-family: serif;
+    float: right;
+    text-align: center;
+    margin-right: 2.3em;
+    width: 4.25em;
+    padding: .24em;
+    border: solid 2px darkcyan;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: honeydew;
+    overflow: hidden;
+}
+
+.add:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: darkcyan;
 }
