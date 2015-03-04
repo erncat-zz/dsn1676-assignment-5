@@ -19,16 +19,16 @@ html {
 }
 
 body {
-    background-color: mintcream;
+    background-image: url(../img/dino.jpg);
 }
 
 
 .holder {
     padding: 0;
     margin: auto;
-    border: solid 2px darkcyan;
+    border: solid 6px #772846;
     border-radius: 10px;
-    background-color: mediumaquamarine;
+    background-color: #D1EEB3;
     min-width: 20em;
     max-width: 20em;
     text-align: center;
@@ -56,18 +56,18 @@ body {
 .delete{
     color: black;
     font-weight: bold;
-    border: solid 2px darkcyan;
+    border: solid 2px #772846;
     border-radius: 5px;
     float: right;
     text-align: center;
     margin-right: 1.2em;
     height: 3em;
     width: 2.5em;
-    background-color: honeydew;
+    background-color: snow;
 }
 
 .delete:hover {
-    background-color: darkcyan;
+    background-color: #772846;
     color: white;
 }
 
@@ -77,12 +77,13 @@ li {
 }
 
 .label {
-    font-family: serif;
+    font-family: sans-serif;
+    font-weight:  medium;
     display: block;
 }
 
 .main-input {
-    border: solid 2px darkcyan;
+    border: solid 2px #772846;
     float: left;
     padding: .85em;
     width: 15em;
@@ -95,21 +96,22 @@ li {
 }
 
 .add {
-    font-family: serif;
+    font-family: sans-serif;
+    font-weight: medium;
     float: right;
     text-align: center;
     margin-right: 2.3em;
     width: 4.25em;
     padding: .24em;
-    border: solid 2px darkcyan;
+    border: solid 2px #772846;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    background-color: honeydew;
+    background-color: snow;
     overflow: hidden;
 }
 
 .add:hover {
-    background-color: darkcyan;
+    background-color: #772846;
     color: white;
 }
 
