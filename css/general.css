@@ -115,7 +115,7 @@ li {
     color: white;
 }
 
-.complete {
+.line-through {
     text-decoration: line-through;
     color: darkcyan;
 }

@@ -18,7 +18,7 @@ $form.on('submit', function (e) {
 
   
     $list.on('click', 'li', function () {
-        $(this).addClass('complete');
+        $(this).addClass('line-through');
     });
 
     $li.append($nameDl);
